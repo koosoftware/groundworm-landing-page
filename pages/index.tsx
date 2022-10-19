@@ -7,37 +7,80 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
+import Link from "@mui/material/Link";
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>GroundWorm</title>
+        <title>What is GroundWorm?</title>
         <meta name="description" content="GroundWorm Bulletin Board" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/about/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <AppBar position="sticky">
+        <AppBar
+          position="sticky"
+          sx={{
+            bgcolor: "white",
+            color: "black",
+            borderBottom: "1px solid #000000",
+          }}
+          elevation={0}
+        >
           <Toolbar>
-            <IconButton
-              size="large"
-              edge="start"
-              color="inherit"
-              aria-label="menu"
-              sx={{ mr: 2 }}
+            <Link href="/" underline="none" color="inherit">
+              <Image
+                src="/about/groundworm.png"
+                alt="GroundWorm Logo"
+                width={36}
+                height={36}
+              />
+            </Link>
+            <Typography
+              variant="h6"
+              component="div"
+              sx={{ flexGrow: 1, paddingLeft: 1 }}
             >
-              <MenuIcon />
-            </IconButton>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              News
+              <Link href="/" underline="none" color="inherit">
+                GroundWorm
+              </Link>
             </Typography>
-            <Button color="inherit">Login</Button>
+            <Button
+              variant="contained"
+              disableElevation
+              sx={{
+                fontSize: 18,
+                backgroundColor: "#4DB5CC",
+                "&:hover": {
+                  backgroundColor: "#4DB5CC",
+                },
+                textTransform: "none",
+                borderRadius: "28px",
+                paddingTop: "2px",
+                paddingBottom: "2px",
+                paddingLeft: 3,
+                paddingRight: 3,
+              }}
+            >
+              Get started
+            </Button>
           </Toolbar>
         </AppBar>
-        <Box component="main" sx={{ p: 3 }}>
+        <img
+          src="/about/bulletin-board.png"
+          alt="Bulletin Board"
+          width="100%"
+          height="100%"
+        />
+        <Box
+          component="main"
+          sx={{
+            p: 3,
+            backgroundColor: "#4DB5CC",
+            borderTop: "1px solid #000000",
+          }}
+        >
           <Typography>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
             unde fugit veniam eius, perspiciatis sunt? Corporis qui ducimus
@@ -81,16 +124,15 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        <Box>
+          <Link href="/" underline="none" color="inherit">
+            <Typography variant="h6">GroundWorm</Typography>
+          </Link>
+        </Box>
+        <Box display="flex">
+          <Box>Terms</Box>
+          <Box pl={2}>Privacy</Box>
+        </Box>
       </footer>
     </div>
   );
