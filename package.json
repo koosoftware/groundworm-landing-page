@@ -2,6 +2,7 @@
   "name": "landing-page",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://groundworm.com/about",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
