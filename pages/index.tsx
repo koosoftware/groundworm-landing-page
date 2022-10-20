@@ -71,8 +71,17 @@ const Home: NextPage = () => {
         </AppBar>
 
         <div className={styles.darkenpic}>
+          <Box p={2} textAlign="center">
+            <Typography
+              variant="h3"
+              fontWeight={"bold"}
+              className={styles.piccontent}
+            >
+              Location Based Bulletin Board
+            </Typography>
+          </Box>
           <Box
-            paddingBottom={10}
+            paddingBottom={6}
             textAlign={"center"}
             position="absolute"
             bottom="0"
