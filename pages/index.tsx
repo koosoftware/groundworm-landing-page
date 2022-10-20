@@ -83,7 +83,7 @@ const Home: NextPage = () => {
               href="https://play.google.com/store/apps/details?id=com.groundworm.android"
               target="_blank"
             >
-              <Image src="/about/playstore.png" width="150px" height="49px" />
+              <Image src="/about/playstore.png" width="200px" height="65px" />
             </Link>
           </Box>
         </div>
