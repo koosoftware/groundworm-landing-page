@@ -46,33 +46,31 @@ const Home: NextPage = () => {
                 GroundWorm
               </Link>
             </Typography>
-            <Button
-              variant="contained"
-              disableElevation
-              sx={{
-                fontSize: 18,
-                backgroundColor: "#4DB5CC",
-                "&:hover": {
+            <Link href="/" underline="none" color="inherit">
+              <Button
+                variant="contained"
+                disableElevation
+                sx={{
+                  fontSize: 18,
                   backgroundColor: "#4DB5CC",
-                },
-                textTransform: "none",
-                borderRadius: "28px",
-                paddingTop: "2px",
-                paddingBottom: "2px",
-                paddingLeft: 3,
-                paddingRight: 3,
-              }}
-            >
-              Get started
-            </Button>
+                  "&:hover": {
+                    backgroundColor: "#4DB5CC",
+                  },
+                  textTransform: "none",
+                  borderRadius: "28px",
+                  paddingTop: "2px",
+                  paddingBottom: "2px",
+                  paddingLeft: 3,
+                  paddingRight: 3,
+                }}
+              >
+                Get started
+              </Button>
+            </Link>
           </Toolbar>
         </AppBar>
-        <img
-          src="/about/bulletin-board.png"
-          alt="Bulletin Board"
-          width="100%"
-          height="100%"
-        />
+
+        <div className={styles.darkenpic}></div>
         <Box
           component="main"
           sx={{
