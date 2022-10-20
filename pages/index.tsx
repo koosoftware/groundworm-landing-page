@@ -60,8 +60,8 @@ const Home: NextPage = () => {
                   borderRadius: "28px",
                   paddingTop: "2px",
                   paddingBottom: "2px",
-                  paddingLeft: 3,
-                  paddingRight: 3,
+                  paddingLeft: 2,
+                  paddingRight: 2,
                 }}
               >
                 Get started
@@ -70,7 +70,24 @@ const Home: NextPage = () => {
           </Toolbar>
         </AppBar>
 
-        <div className={styles.darkenpic}></div>
+        <div className={styles.darkenpic}>
+          <Box
+            paddingBottom={10}
+            textAlign={"center"}
+            position="absolute"
+            bottom="0"
+            left="0"
+            right="0"
+          >
+            <Link
+              href="https://play.google.com/store/apps/details?id=com.groundworm.android"
+              target="_blank"
+            >
+              <Image src="/about/playstore.png" width="150px" height="49px" />
+            </Link>
+          </Box>
+        </div>
+
         <Box
           component="main"
           sx={{
