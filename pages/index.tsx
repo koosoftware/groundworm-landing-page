@@ -13,7 +13,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>What is GroundWorm?</title>
+        <title>GroundWorm - Location Based Bulletin Board App</title>
         <meta name="description" content="GroundWorm Bulletin Board" />
         <link rel="icon" href="/about/favicon.ico" />
       </Head>
@@ -171,14 +171,75 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <Box>
+        <Box pb={2}>
           <Link href="/" underline="none" color="inherit">
-            <Typography variant="h6">GroundWorm</Typography>
+            <Typography variant="h5">GroundWorm</Typography>
           </Link>
         </Box>
         <Box display="flex">
-          <Box>Terms</Box>
-          <Box pl={2}>Privacy</Box>
+          <Box p={1}>
+            <Link href="https://fb.me/groundworm" target="_blank">
+              <img src="/about/facebook_grey.png" width="32" />
+            </Link>
+          </Box>
+          <Box p={1}>
+            <Link href="https://twitter.com/GroundWormBB" target="_blank">
+              <img src="/about/twitter_grey.png" width="32" />
+            </Link>
+          </Box>
+          <Box p={1}>
+            <Link
+              href="https://www.youtube.com/channel/UC0nf6-eeutbSDG-5iN5PSng"
+              target="_blank"
+            >
+              <img src="/about/youtube_grey.png" width="32" />
+            </Link>
+          </Box>
+          <Box p={1}>
+            <Link
+              href="https://www.instagram.com/groundwormapp/"
+              target="_blank"
+            >
+              <img src="/about/instagram_grey.png" width="32" />
+            </Link>
+          </Box>
+          <Box p={1}>
+            <Link
+              href="https://www.pinterest.com/groundwormapp"
+              target="_blank"
+            >
+              <img src="/about/pinterest_grey.png" width="32" />
+            </Link>
+          </Box>
+        </Box>
+        <Box display="flex" pt={2} color={"grey"}>
+          <Box pl={2} pr={2}>
+            <Link
+              href="https://groundworm.com/terms-of-use.html"
+              target="_blank"
+              color="inherit"
+            >
+              Terms
+            </Link>
+          </Box>
+          <Box pl={2} pr={2}>
+            <Link
+              href="https://groundworm.com/privacy-policy.html"
+              target="_blank"
+              color="inherit"
+            >
+              Privacy
+            </Link>
+          </Box>
+          <Box pl={2} pr={2}>
+            <Link
+              href="https://groundworm.com/disclaimer.html"
+              target="_blank"
+              color="inherit"
+            >
+              Disclaimer
+            </Link>
+          </Box>
         </Box>
       </footer>
     </div>
