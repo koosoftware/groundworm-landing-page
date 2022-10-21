@@ -71,16 +71,18 @@ const Home: NextPage = () => {
         </AppBar>
 
         <div className={styles.darkenpic}>
-          <Box p={2} textAlign="center">
+          <Box pl={2} pr={2} pb={24} textAlign="center">
             <Typography
               variant="h3"
               fontWeight={"bold"}
+              fontStyle={"italic"}
               className={styles.piccontent}
             >
               Location Based Bulletin Board
             </Typography>
           </Box>
           <Box
+            flex={"display"}
             paddingBottom={6}
             textAlign={"center"}
             position="absolute"
@@ -92,7 +94,28 @@ const Home: NextPage = () => {
               href="https://play.google.com/store/apps/details?id=com.groundworm.android"
               target="_blank"
             >
-              <Image src="/about/playstore.png" width="200px" height="65px" />
+              <Image
+                src="/about/google-play-badge.png"
+                width="215px"
+                height="89px"
+              />
+            </Link>
+            <Link
+              href="https://appgallery.huawei.com/app/C105635521"
+              target="_blank"
+            >
+              <Image
+                src="/about/huawei-appgallery-badge.png"
+                width="215px"
+                height="89px"
+              />
+            </Link>
+            <Link href="/" target="_blank">
+              <Image
+                src="/about/web-app-badge.png"
+                width="215px"
+                height="89px"
+              />
             </Link>
           </Box>
         </div>
