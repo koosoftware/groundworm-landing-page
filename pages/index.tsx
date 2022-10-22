@@ -271,8 +271,9 @@ const Home: NextPage = () => {
               </Box>
               <Box pt={4} pb={4}>
                 <Typography variant="h5">
-                  Download our app to keep you updated with what's happening
-                  around you.
+                  {
+                    "Download our app to keep you updated with what's happening around you."
+                  }
                 </Typography>
               </Box>
               <Box flex={"display"}>
