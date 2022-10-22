@@ -208,7 +208,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <Box pb={2}>
+        <Box pt={4} pb={2}>
           <Link href="/" underline="none" color="inherit">
             <Typography variant="h5">GroundWorm</Typography>
           </Link>
@@ -274,7 +274,7 @@ const Home: NextPage = () => {
             </Link>
           </Box>
         </Box>
-        <Box display="flex" pt={2} color={"grey"}>
+        <Box display="flex" pt={2} pb={4} color={"grey"}>
           <Box pl={2} pr={2}>
             <Link
               href="https://groundworm.com/terms-of-use.html"
