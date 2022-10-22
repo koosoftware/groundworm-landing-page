@@ -13,8 +13,42 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>GroundWorm - Location Based Bulletin Board App</title>
-        <meta name="description" content="GroundWorm Bulletin Board" />
+        <title>What is GroundWorm? A Location Based Bulletin Board App</title>
+        <meta
+          name="description"
+          content="A community social platform that keeps you updated with what's happening around you. Create geo targeted post to broadcast your info to your neighborhood."
+        />
+
+        <meta
+          property="og:title"
+          content="What is GroundWorm? A Location Based Bulletin Board App"
+        />
+        <meta
+          property="og:description"
+          content="A community social platform that keeps you updated with what's happening around you. Create geo targeted post to broadcast your info to your neighborhood."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://groundworm.com/about/groundworm.png"
+        />
+        <meta property="og:url" content="https://groundworm.com" />
+        <meta property="fb:app_id" content="725813565065709" />
+        <meta
+          name="twitter:title"
+          content="What is GroundWorm? A Location Based Bulletin Board App"
+        />
+        <meta
+          name="twitter:description"
+          content="A community social platform that keeps you updated with what's happening around you. Create geo targeted post to broadcast your info to your neighborhood."
+        />
+        <meta
+          name="twitter:image"
+          content="https://groundworm.com/about/groundworm.png"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@GroundWormBB" />
+
         <link rel="icon" href="/about/favicon.ico" />
       </Head>
 
