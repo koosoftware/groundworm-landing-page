@@ -267,12 +267,12 @@ const Home: NextPage = () => {
           <Grid container columns={{ xs: 4, sm: 6, md: 12 }}>
             <Grid item xs={4} sm={6} md={6}>
               <Box pt={2}>
-                <Typography variant="h2">GET THE APP!</Typography>
+                <Typography variant="h3">GET THE APP!</Typography>
               </Box>
               <Box pt={4} pb={4}>
                 <Typography variant="h5">
                   {
-                    "Download our app to keep you updated with what's happening around you."
+                    "Download or visit our app to keep you updated with what's happening around you."
                   }
                 </Typography>
               </Box>
@@ -295,6 +295,14 @@ const Home: NextPage = () => {
                   <Image
                     src="/about/huawei-appgallery-badge.png"
                     alt="Huawei AppGallery Badge for GroundWorm"
+                    width="215px"
+                    height="89px"
+                  />
+                </Link>
+                <Link href="/" target="_blank">
+                  <Image
+                    src="/about/web-app-badge.png"
+                    alt="Web App Badge for GroundWorm"
                     width="215px"
                     height="89px"
                   />
