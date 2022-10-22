@@ -220,6 +220,7 @@ const Home: NextPage = () => {
                 src="/about/facebook_grey.png"
                 alt="Facebook Page of GroundWorm"
                 width="32"
+                height="32"
               />
             </Link>
           </Box>
@@ -229,6 +230,7 @@ const Home: NextPage = () => {
                 src="/about/twitter_grey.png"
                 alt="Twitter of GroundWorm"
                 width="32"
+                height="32"
               />
             </Link>
           </Box>
@@ -241,6 +243,7 @@ const Home: NextPage = () => {
                 src="/about/youtube_grey.png"
                 alt="Youtube Channel of GroundWorm"
                 width="32"
+                height="32"
               />
             </Link>
           </Box>
@@ -253,6 +256,7 @@ const Home: NextPage = () => {
                 src="/about/instagram_grey.png"
                 alt="Instagram of GroundWorm"
                 width="32"
+                height="32"
               />
             </Link>
           </Box>
@@ -265,6 +269,7 @@ const Home: NextPage = () => {
                 src="/about/pinterest_grey.png"
                 alt="Pinterest of GroundWorm"
                 width="32"
+                height="32"
               />
             </Link>
           </Box>
