@@ -8,6 +8,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Link from "@mui/material/Link";
+import { Grid } from "@mui/material";
 
 const Home: NextPage = () => {
   return (
@@ -161,7 +162,6 @@ const Home: NextPage = () => {
           component="main"
           sx={{
             p: 3,
-            backgroundColor: "#4DB5CC",
             borderTop: "1px solid #000000",
           }}
         >
@@ -204,6 +204,106 @@ const Home: NextPage = () => {
             dolorem dolores sunt inventore perferendis, aut sapiente modi
             nesciunt.
           </Typography>
+        </Box>
+
+        <Box
+          component="main"
+          sx={{
+            p: 3,
+            backgroundColor: "black",
+            color: "white",
+            borderTop: "1px solid #000000",
+          }}
+        >
+          <Typography>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            unde fugit veniam eius, perspiciatis sunt? Corporis qui ducimus
+            quibusdam, aliquam dolore excepturi quae. Distinctio enim at
+            eligendi perferendis in cum quibusdam sed quae, accusantium et
+            aperiam? Quod itaque exercitationem, at ab sequi qui modi delectus
+            quia corrupti alias distinctio nostrum. Minima ex dolor modi
+            inventore sapiente necessitatibus aliquam fuga et. Sed numquam
+            quibusdam at officia sapiente porro maxime corrupti perspiciatis
+            asperiores, exercitationem eius nostrum consequuntur iure aliquam
+            itaque, assumenda et! Quibusdam temporibus beatae doloremque
+            voluptatum doloribus soluta accusamus porro reprehenderit eos
+            inventore facere, fugit, molestiae ab officiis illo voluptates
+            recusandae. Vel dolor nobis eius, ratione atque soluta, aliquam
+            fugit qui iste architecto perspiciatis. Nobis, voluptatem! Cumque,
+            eligendi unde aliquid minus quis sit debitis obcaecati error,
+            delectus quo eius exercitationem tempore. Delectus sapiente,
+            provident corporis dolorum quibusdam aut beatae repellendus est
+            labore quisquam praesentium repudiandae non vel laboriosam quo ab
+            perferendis velit ipsa deleniti modi! Ipsam, illo quod. Nesciunt
+            commodi nihil corrupti cum non fugiat praesentium doloremque
+            architecto laborum aliquid. Quae, maxime recusandae? Eveniet dolore
+            molestiae dicta blanditiis est expedita eius debitis cupiditate
+            porro sed aspernatur quidem, repellat nihil quasi praesentium quia
+            eos, quibusdam provident. Incidunt tempore vel placeat voluptate
+            iure labore, repellendus beatae quia unde est aliquid dolor
+            molestias libero. Reiciendis similique exercitationem consequatur,
+            nobis placeat illo laudantium! Enim perferendis nulla soluta magni
+            error, provident repellat similique cupiditate ipsam, et tempore
+            cumque quod! Qui, iure suscipit tempora unde rerum autem saepe nisi
+            vel cupiditate iusto. Illum, corrupti? Fugiat quidem accusantium
+            nulla. Aliquid inventore commodi reprehenderit rerum reiciendis!
+            Quidem alias repudiandae eaque eveniet cumque nihil aliquam in
+            expedita, impedit quas ipsum nesciunt ipsa ullam consequuntur
+            dignissimos numquam at nisi porro a, quaerat rem repellendus.
+            Voluptates perspiciatis, in pariatur impedit, nam facilis libero
+            dolorem dolores sunt inventore perferendis, aut sapiente modi
+            nesciunt.
+          </Typography>
+        </Box>
+
+        <Box
+          component="main"
+          sx={{
+            p: 3,
+            backgroundColor: "#4DB5CC",
+            borderTop: "1px solid #000000",
+          }}
+        >
+          <Grid container columns={{ xs: 4, sm: 6, md: 12 }}>
+            <Grid item xs={4} sm={6} md={6}>
+              <Box pt={2}>
+                <Typography variant="h2">GET THE APP!</Typography>
+              </Box>
+              <Box pt={4} pb={4}>
+                <Typography variant="h5">
+                  Download our app to keep you updated with what's happening
+                  around you.
+                </Typography>
+              </Box>
+              <Box flex={"display"}>
+                <Link
+                  href="https://play.google.com/store/apps/details?id=com.groundworm.android"
+                  target="_blank"
+                >
+                  <Image
+                    src="/about/google-play-badge.png"
+                    alt="Google Play Badge for GroundWorm"
+                    width="215px"
+                    height="89px"
+                  />
+                </Link>
+                <Link
+                  href="https://appgallery.huawei.com/app/C105635521"
+                  target="_blank"
+                >
+                  <Image
+                    src="/about/huawei-appgallery-badge.png"
+                    alt="Huawei AppGallery Badge for GroundWorm"
+                    width="215px"
+                    height="89px"
+                  />
+                </Link>
+              </Box>
+            </Grid>
+            <Grid item xs={4} sm={6} md={6}>
+              Two
+            </Grid>
+          </Grid>
         </Box>
       </main>
 
