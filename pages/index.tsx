@@ -208,7 +208,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <Box pt={4} pb={2}>
+        <Box pb={2}>
           <Link href="/" underline="none" color="inherit">
             <Typography variant="h5">GroundWorm</Typography>
           </Link>
