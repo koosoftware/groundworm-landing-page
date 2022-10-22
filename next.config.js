@@ -2,7 +2,7 @@
 const nextConfig = {
   basePath: "/about",
   i18n: {
-    locales: ["en"],
+    locales: ["en", "ms"],
     defaultLocale: "en",
   },
   reactStrictMode: true,
