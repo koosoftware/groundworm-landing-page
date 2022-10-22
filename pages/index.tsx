@@ -130,6 +130,7 @@ const Home: NextPage = () => {
             >
               <Image
                 src="/about/google-play-badge.png"
+                alt="Google Play Badge for GroundWorm"
                 width="215px"
                 height="89px"
               />
@@ -140,6 +141,7 @@ const Home: NextPage = () => {
             >
               <Image
                 src="/about/huawei-appgallery-badge.png"
+                alt="Huawei AppGallery Badge for GroundWorm"
                 width="215px"
                 height="89px"
               />
@@ -147,6 +149,7 @@ const Home: NextPage = () => {
             <Link href="/" target="_blank">
               <Image
                 src="/about/web-app-badge.png"
+                alt="Web App Badge for GroundWorm"
                 width="215px"
                 height="89px"
               />
@@ -213,12 +216,20 @@ const Home: NextPage = () => {
         <Box display="flex">
           <Box p={1}>
             <Link href="https://fb.me/groundworm" target="_blank">
-              <img src="/about/facebook_grey.png" width="32" />
+              <Image
+                src="/about/facebook_grey.png"
+                alt="Facebook Page of GroundWorm"
+                width="32"
+              />
             </Link>
           </Box>
           <Box p={1}>
             <Link href="https://twitter.com/GroundWormBB" target="_blank">
-              <img src="/about/twitter_grey.png" width="32" />
+              <Image
+                src="/about/twitter_grey.png"
+                alt="Twitter of GroundWorm"
+                width="32"
+              />
             </Link>
           </Box>
           <Box p={1}>
@@ -226,7 +237,11 @@ const Home: NextPage = () => {
               href="https://www.youtube.com/channel/UC0nf6-eeutbSDG-5iN5PSng"
               target="_blank"
             >
-              <img src="/about/youtube_grey.png" width="32" />
+              <Image
+                src="/about/youtube_grey.png"
+                alt="Youtube Channel of GroundWorm"
+                width="32"
+              />
             </Link>
           </Box>
           <Box p={1}>
@@ -234,7 +249,11 @@ const Home: NextPage = () => {
               href="https://www.instagram.com/groundwormapp/"
               target="_blank"
             >
-              <img src="/about/instagram_grey.png" width="32" />
+              <Image
+                src="/about/instagram_grey.png"
+                alt="Instagram of GroundWorm"
+                width="32"
+              />
             </Link>
           </Box>
           <Box p={1}>
@@ -242,7 +261,11 @@ const Home: NextPage = () => {
               href="https://www.pinterest.com/groundwormapp"
               target="_blank"
             >
-              <img src="/about/pinterest_grey.png" width="32" />
+              <Image
+                src="/about/pinterest_grey.png"
+                alt="Pinterest of GroundWorm"
+                width="32"
+              />
             </Link>
           </Box>
         </Box>
