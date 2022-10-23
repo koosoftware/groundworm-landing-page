@@ -259,13 +259,12 @@ const Home: NextPage = () => {
         <Box
           component="main"
           sx={{
-            p: 3,
             backgroundColor: "#4DB5CC",
             borderTop: "1px solid #000000",
           }}
         >
           <Grid container columns={{ xs: 4, sm: 6, md: 12 }}>
-            <Grid item xs={4} sm={6} md={6}>
+            <Grid p={3} item xs={4} sm={6} md={6}>
               <Box pt={2}>
                 <Typography variant="h4">GET THE APP!</Typography>
               </Box>
@@ -284,8 +283,8 @@ const Home: NextPage = () => {
                   <Image
                     src="/about/google-play-badge.png"
                     alt="Google Play Badge for GroundWorm"
-                    width="170px"
-                    height="70px"
+                    width="215px"
+                    height="89px"
                   />
                 </Link>
                 <Link
@@ -295,22 +294,27 @@ const Home: NextPage = () => {
                   <Image
                     src="/about/huawei-appgallery-badge.png"
                     alt="Huawei AppGallery Badge for GroundWorm"
-                    width="170px"
-                    height="70px"
+                    width="215px"
+                    height="89px"
                   />
                 </Link>
                 <Link href="/" target="_blank">
                   <Image
                     src="/about/web-app-badge.png"
                     alt="Web App Badge for GroundWorm"
-                    width="170px"
-                    height="70px"
+                    width="215px"
+                    height="89px"
                   />
                 </Link>
               </Box>
             </Grid>
-            <Grid item xs={4} sm={6} md={6}>
-              Two
+            <Grid pt={3} item xs={4} sm={6} md={6} textAlign="center">
+              <Image
+                src="/about/screenshots.png"
+                alt="Screenshots of GroundWorm App"
+                width="507px"
+                height="444px"
+              />
             </Grid>
           </Grid>
         </Box>
