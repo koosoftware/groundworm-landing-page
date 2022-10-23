@@ -284,8 +284,8 @@ const Home: NextPage = () => {
                   <Image
                     src="/about/google-play-badge.png"
                     alt="Google Play Badge for GroundWorm"
-                    width="180px"
-                    height="75px"
+                    width="170px"
+                    height="70px"
                   />
                 </Link>
                 <Link
@@ -295,16 +295,16 @@ const Home: NextPage = () => {
                   <Image
                     src="/about/huawei-appgallery-badge.png"
                     alt="Huawei AppGallery Badge for GroundWorm"
-                    width="180px"
-                    height="75px"
+                    width="170px"
+                    height="70px"
                   />
                 </Link>
                 <Link href="/" target="_blank">
                   <Image
                     src="/about/web-app-badge.png"
                     alt="Web App Badge for GroundWorm"
-                    width="180px"
-                    height="75px"
+                    width="170px"
+                    height="70px"
                   />
                 </Link>
               </Box>
