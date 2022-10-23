@@ -265,17 +265,17 @@ const Home: NextPage = () => {
         >
           <Grid container columns={{ xs: 4, sm: 6, md: 12 }}>
             <Grid p={3} item xs={4} sm={6} md={6}>
-              <Box pt={2}>
+              <Box pt={2} textAlign="center">
                 <Typography variant="h4">GET THE APP!</Typography>
               </Box>
-              <Box pt={4} pb={4}>
+              <Box pt={4} pb={4} textAlign="center">
                 <Typography variant="h6">
                   {
                     "Download or visit our app to keep you updated with what's happening around you."
                   }
                 </Typography>
               </Box>
-              <Box flex={"display"}>
+              <Box flex={"display"} textAlign="center">
                 <Link
                   href="https://play.google.com/store/apps/details?id=com.groundworm.android"
                   target="_blank"
@@ -306,6 +306,14 @@ const Home: NextPage = () => {
                     height="89px"
                   />
                 </Link>
+              </Box>
+              <Box pt={2} textAlign="center">
+                <Image
+                  src="/about/qr-code.png"
+                  alt="QR code link for GroundWorm App"
+                  width="180px"
+                  height="180px"
+                />
               </Box>
             </Grid>
             <Grid
