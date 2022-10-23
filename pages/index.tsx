@@ -308,13 +308,23 @@ const Home: NextPage = () => {
                 </Link>
               </Box>
             </Grid>
-            <Grid pt={3} item xs={4} sm={6} md={6} textAlign="center">
-              <Image
-                src="/about/screenshots.png"
-                alt="Screenshots of GroundWorm App"
-                width="507px"
-                height="444px"
-              />
+            <Grid
+              item
+              xs={4}
+              sm={6}
+              md={6}
+              textAlign="center"
+              pt={3}
+              alignSelf={"flex-end"}
+            >
+              <Box position="relative" bottom={-5}>
+                <Image
+                  src="/about/screenshots.png"
+                  alt="Screenshots of GroundWorm App"
+                  width="400px"
+                  height="350px"
+                />
+              </Box>
             </Grid>
           </Grid>
         </Box>
