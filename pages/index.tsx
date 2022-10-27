@@ -186,7 +186,7 @@ const Home: NextPage = () => {
         >
           <Box display={"flex"} justifyContent={"center"}>
             <Typography variant="h2" maxWidth={1000} textAlign="center">
-              Geotargeting Advertising
+              Geotargeting advertising
             </Typography>
           </Box>
           <Box display={"flex"} justifyContent={"center"} pt={2}>
@@ -258,7 +258,7 @@ const Home: NextPage = () => {
               borderRight={"1px solid #FFFFFF"}
             >
               <Box>
-                <Typography variant="h4">Contact Us</Typography>
+                <Typography variant="h4">Contact us</Typography>
               </Box>
               <Box>
                 <Typography variant="h6">
@@ -287,7 +287,7 @@ const Home: NextPage = () => {
                       paddingRight: 2,
                     }}
                   >
-                    Email Us
+                    Email us
                   </Button>
                 </Link>
               </Box>
