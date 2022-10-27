@@ -209,51 +209,98 @@ const Home: NextPage = () => {
         <Box
           component="main"
           sx={{
-            p: 3,
             backgroundColor: "black",
             color: "white",
-            borderTop: "1px solid #000000",
           }}
         >
-          <Typography>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-            unde fugit veniam eius, perspiciatis sunt? Corporis qui ducimus
-            quibusdam, aliquam dolore excepturi quae. Distinctio enim at
-            eligendi perferendis in cum quibusdam sed quae, accusantium et
-            aperiam? Quod itaque exercitationem, at ab sequi qui modi delectus
-            quia corrupti alias distinctio nostrum. Minima ex dolor modi
-            inventore sapiente necessitatibus aliquam fuga et. Sed numquam
-            quibusdam at officia sapiente porro maxime corrupti perspiciatis
-            asperiores, exercitationem eius nostrum consequuntur iure aliquam
-            itaque, assumenda et! Quibusdam temporibus beatae doloremque
-            voluptatum doloribus soluta accusamus porro reprehenderit eos
-            inventore facere, fugit, molestiae ab officiis illo voluptates
-            recusandae. Vel dolor nobis eius, ratione atque soluta, aliquam
-            fugit qui iste architecto perspiciatis. Nobis, voluptatem! Cumque,
-            eligendi unde aliquid minus quis sit debitis obcaecati error,
-            delectus quo eius exercitationem tempore. Delectus sapiente,
-            provident corporis dolorum quibusdam aut beatae repellendus est
-            labore quisquam praesentium repudiandae non vel laboriosam quo ab
-            perferendis velit ipsa deleniti modi! Ipsam, illo quod. Nesciunt
-            commodi nihil corrupti cum non fugiat praesentium doloremque
-            architecto laborum aliquid. Quae, maxime recusandae? Eveniet dolore
-            molestiae dicta blanditiis est expedita eius debitis cupiditate
-            porro sed aspernatur quidem, repellat nihil quasi praesentium quia
-            eos, quibusdam provident. Incidunt tempore vel placeat voluptate
-            iure labore, repellendus beatae quia unde est aliquid dolor
-            molestias libero. Reiciendis similique exercitationem consequatur,
-            nobis placeat illo laudantium! Enim perferendis nulla soluta magni
-            error, provident repellat similique cupiditate ipsam, et tempore
-            cumque quod! Qui, iure suscipit tempora unde rerum autem saepe nisi
-            vel cupiditate iusto. Illum, corrupti? Fugiat quidem accusantium
-            nulla. Aliquid inventore commodi reprehenderit rerum reiciendis!
-            Quidem alias repudiandae eaque eveniet cumque nihil aliquam in
-            expedita, impedit quas ipsum nesciunt ipsa ullam consequuntur
-            dignissimos numquam at nisi porro a, quaerat rem repellendus.
-            Voluptates perspiciatis, in pariatur impedit, nam facilis libero
-            dolorem dolores sunt inventore perferendis, aut sapiente modi
-            nesciunt.
-          </Typography>
+          <Grid container columns={{ xs: 4, sm: 6, md: 12 }}>
+            <Grid
+              p={3}
+              item
+              xs={4}
+              sm={6}
+              md={6}
+              borderTop={"1px solid #FFFFFF"}
+              borderRight={"1px solid #FFFFFF"}
+            >
+              <Box>
+                <Typography variant="h4">GroundWorm Blog</Typography>
+              </Box>
+              <Box>
+                <Typography variant="h6">
+                  {"Visit our blog for latest updates, and tips and tricks."}
+                </Typography>
+              </Box>
+              <Box pt={8}>
+                <Link href="https://groundworm.com/blog" underline="none">
+                  <Button
+                    variant="outlined"
+                    disableElevation
+                    sx={{
+                      color: "#4DB5CC",
+                      borderColor: "#4DB5CC",
+                      "&:hover": {
+                        borderColor: "#4DB5CC",
+                      },
+                      fontSize: 22,
+                      textTransform: "none",
+                      borderRadius: "28px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      paddingLeft: 2,
+                      paddingRight: 2,
+                    }}
+                  >
+                    Read our blog
+                  </Button>
+                </Link>
+              </Box>
+            </Grid>
+            <Grid
+              p={3}
+              item
+              xs={4}
+              sm={6}
+              md={6}
+              borderTop={"1px solid #FFFFFF"}
+              borderRight={"1px solid #FFFFFF"}
+            >
+              <Box>
+                <Typography variant="h4">Contact Us</Typography>
+              </Box>
+              <Box>
+                <Typography variant="h6">
+                  {
+                    "Email or get in touch with us to leave your comment, suggest a feature or report a bug."
+                  }
+                </Typography>
+              </Box>
+              <Box pt={4}>
+                <Link href="mailto:support@groundworm.com" underline="none">
+                  <Button
+                    variant="outlined"
+                    disableElevation
+                    sx={{
+                      color: "#4DB5CC",
+                      borderColor: "#4DB5CC",
+                      "&:hover": {
+                        borderColor: "#4DB5CC",
+                      },
+                      fontSize: 22,
+                      textTransform: "none",
+                      borderRadius: "28px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      paddingLeft: 2,
+                      paddingRight: 2,
+                    }}
+                  >
+                    Email Us
+                  </Button>
+                </Link>
+              </Box>
+            </Grid>
+          </Grid>
         </Box>
 
         <Box
