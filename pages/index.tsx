@@ -86,7 +86,7 @@ const Home: NextPage = () => {
                 variant="contained"
                 disableElevation
                 sx={{
-                  fontSize: 18,
+                  fontSize: 17,
                   backgroundColor: "#4DB5CC",
                   "&:hover": {
                     backgroundColor: "#4DB5CC",
