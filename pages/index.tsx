@@ -256,17 +256,79 @@ const Home: NextPage = () => {
         <Box component="main" pl={3} pr={3} pt={10} pb={10}>
           <Box display={"flex"} justifyContent={"center"}>
             <Typography variant="h2" maxWidth={1000} textAlign="center">
-              Share information with your neighborhood
+              Community forum based on location
             </Typography>
           </Box>
           <Box display={"flex"} justifyContent={"center"} pt={2}>
             <Typography maxWidth={600} textAlign="center">
-              Anyone can broadcast your information to your neighborhood,
-              connect with your target audiences, increase visiblity on your
-              products, or promote your businesses to the people nearby in
-              GroundWorm location based bulletin board.
+              GroundWorm is a community forum platform where people in the same
+              location can share localized information, have discussion on a
+              localized topic, or seeking help from the local poeple.
             </Typography>
           </Box>
+        </Box>
+
+        <Box component="main">
+          <Grid container columns={{ xs: 4, sm: 6, md: 12 }}>
+            <Grid
+              p={3}
+              item
+              xs={4}
+              sm={6}
+              md={6}
+              borderTop={"1px solid #000000"}
+              borderLeft={"1px solid #000000"}
+            >
+              <Box display={"flex"} justifyContent={"center"}>
+                <Typography
+                  variant="h3"
+                  fontSize={36}
+                  maxWidth={1000}
+                  textAlign="center"
+                >
+                  Share information with your neighborhood
+                </Typography>
+              </Box>
+              <Box display={"flex"} justifyContent={"center"} pt={2}>
+                <Typography maxWidth={600} textAlign="center">
+                  Anyone can broadcast your information in the form of text,
+                  photos or videos to your neighborhood, connect with your
+                  target audiences, increase visiblity on your products, or
+                  promote your businesses to the people nearby in GroundWorm
+                  location based bulletin board.
+                </Typography>
+              </Box>
+            </Grid>
+            <Grid
+              p={3}
+              item
+              xs={4}
+              sm={6}
+              md={6}
+              borderTop={"1px solid #000000"}
+              borderLeft={"1px solid #000000"}
+            >
+              <Box display={"flex"} justifyContent={"center"}>
+                <Typography
+                  variant="h3"
+                  fontSize={36}
+                  maxWidth={1000}
+                  textAlign="center"
+                >
+                  Keeps you updated with what's happening around you
+                </Typography>
+              </Box>
+              <Box display={"flex"} justifyContent={"center"} pt={2}>
+                <Typography maxWidth={600} textAlign="center">
+                  Refresh the GroundWorm bulletin board app whenever you are at
+                  a different location to see posts only from your current
+                  location. Any new restaurants nearby, any events in your
+                  neighborhood, any nice photos or videos of a tourist
+                  attraction, it's all at your fingertips.
+                </Typography>
+              </Box>
+            </Grid>
+          </Grid>
         </Box>
 
         <Box
