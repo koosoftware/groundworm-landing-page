@@ -105,9 +105,50 @@ const Home: NextPage = () => {
           </Toolbar>
         </AppBar>
 
-        <div className={styles.darkenpic}>
+        <div className="darkenpic">
+          <style jsx>{`
+            .darkenpic {
+              width: 100%;
+              height: 100vh;
+              position: relative;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+
+            .piccontent {
+              text-align: center;
+              color: white;
+              font-size: 36pt;
+            }
+
+            .darkenpic::before {
+              content: "";
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: linear-gradient(
+                  to bottom,
+                  rgba(0, 0, 0, 0.9),
+                  rgba(0, 0, 0, 0.1) 20%
+                ),
+                linear-gradient(
+                  to top,
+                  rgba(0, 0, 0, 0.9),
+                  rgba(0, 0, 0, 0.1) 40%
+                ),
+                url("/about/bulletin-board.webp");
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: top center;
+              z-index: -1;
+              filter: brightness(90%);
+              width: 100%;
+              height: 100vh;
+            }
+          `}</style>
           <Box pl={2} pr={2} pb={24} textAlign="center">
-            <h1 className={styles.piccontent}>
+            <h1 className="piccontent">
               <b>
                 <i>Location Based Bulletin Board</i>
               </b>
