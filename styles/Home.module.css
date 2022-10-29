@@ -22,6 +22,7 @@
 .piccontent {
   text-align:center;
   color:white;
+  font-size: 40pt;
 }
 
 .darkenpic::before {

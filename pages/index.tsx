@@ -107,14 +107,11 @@ const Home: NextPage = () => {
 
         <div className={styles.darkenpic}>
           <Box pl={2} pr={2} pb={24} textAlign="center">
-            <Typography
-              variant="h3"
-              fontWeight={"bold"}
-              fontStyle={"italic"}
-              className={styles.piccontent}
-            >
-              Location Based Bulletin Board
-            </Typography>
+            <h1 className={styles.piccontent}>
+              <b>
+                <i>Location Based Bulletin Board</i>
+              </b>
+            </h1>
           </Box>
           <Box
             flex={"display"}
