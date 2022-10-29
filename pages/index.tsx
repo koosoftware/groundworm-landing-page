@@ -253,7 +253,7 @@ const Home: NextPage = () => {
           </Box>
         </div>
 
-        <Box component="main" pl={3} pr={3} pt={10} pb={10}>
+        <Box component="main" pl={3} pr={3} pt={6} pb={6}>
           <Box display={"flex"} justifyContent={"center"}>
             <Typography variant="h2" maxWidth={1000} textAlign="center">
               Community forum based on location
@@ -273,8 +273,8 @@ const Home: NextPage = () => {
             <Grid
               pl={3}
               pr={3}
-              pt={10}
-              pb={10}
+              pt={6}
+              pb={6}
               item
               xs={4}
               sm={6}
@@ -300,8 +300,8 @@ const Home: NextPage = () => {
             <Grid
               pl={3}
               pr={3}
-              pt={10}
-              pb={10}
+              pt={6}
+              pb={6}
               item
               xs={4}
               sm={6}
@@ -333,8 +333,8 @@ const Home: NextPage = () => {
           }}
           pl={3}
           pr={3}
-          pt={10}
-          pb={10}
+          pt={6}
+          pb={6}
         >
           <Box display={"flex"} justifyContent={"center"}>
             <Typography variant="h2" maxWidth={1000} textAlign="center">
