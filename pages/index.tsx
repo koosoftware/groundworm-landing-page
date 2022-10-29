@@ -263,7 +263,7 @@ const Home: NextPage = () => {
             <Typography maxWidth={600} textAlign="center">
               GroundWorm is a community forum platform where people in the same
               location can share localized information, have discussion on a
-              localized topic, or seeking help from the local poeple.
+              localized topic, or seeking help from the local people.
             </Typography>
           </Box>
           <Box textAlign={"center"}>
