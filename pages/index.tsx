@@ -253,7 +253,7 @@ const Home: NextPage = () => {
           </Box>
         </div>
 
-        <Box component="main" pl={3} pr={3} pt={6} pb={6}>
+        <Box component="main" pl={3} pr={3} pt={6} pb={3}>
           <Box display={"flex"} justifyContent={"center"}>
             <Typography variant="h2" maxWidth={1000} textAlign="center">
               Community forum based on location
@@ -265,6 +265,14 @@ const Home: NextPage = () => {
               location can share localized information, have discussion on a
               localized topic, or seeking help from the local poeple.
             </Typography>
+          </Box>
+          <Box textAlign={"center"}>
+            <Image
+              src="/about/forum.png"
+              alt="GroundWorm Location Based Community Forum"
+              width="470px"
+              height="394px"
+            />
           </Box>
         </Box>
 
