@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -12,7 +11,106 @@ import { Grid } from "@mui/material";
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div className="container">
+      <style jsx>{`
+        .container {
+          padding: 0 0rem;
+        }
+
+        .main {
+          min-height: 100vh;
+          padding: 0rem 0;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .footer {
+          display: flex;
+          flex-direction: column;
+          flex: 1;
+          padding: 2rem 0;
+          border-top: 1px solid #000000;
+          justify-content: center;
+          align-items: center;
+          background-color: #eeeeee;
+        }
+
+        .footer a {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          flex-grow: 1;
+        }
+
+        .title a {
+          color: #0070f3;
+          text-decoration: none;
+        }
+
+        .title a:hover,
+        .title a:focus,
+        .title a:active {
+          text-decoration: underline;
+        }
+
+        .title {
+          margin: 0;
+          line-height: 1.15;
+          font-size: 4rem;
+        }
+
+        .title {
+          text-align: center;
+        }
+
+        @media (prefers-color-scheme: dark) {
+          .card,
+          .footer {
+            border-color: #222;
+          }
+          .code {
+            background: #111;
+          }
+        }
+
+        .darkenpic {
+          width: 100%;
+          height: 100vh;
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .piccontent {
+          text-align: center;
+          color: white;
+          font-size: 36pt;
+        }
+
+        .darkenpic::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.9),
+              rgba(0, 0, 0, 0.1) 20%
+            ),
+            linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1) 40%),
+            url("/about/bulletin-board.webp");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: top center;
+          z-index: -1;
+          filter: brightness(90%);
+          width: 100%;
+          height: 100vh;
+        }
+      `}</style>
       <Head>
         <title>What is GroundWorm? A Location Based Bulletin Board App</title>
         <meta
@@ -53,7 +151,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/about/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className="main">
         <AppBar
           position="sticky"
           sx={{
@@ -106,47 +204,6 @@ const Home: NextPage = () => {
         </AppBar>
 
         <div className="darkenpic">
-          <style jsx>{`
-            .darkenpic {
-              width: 100%;
-              height: 100vh;
-              position: relative;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-            }
-
-            .piccontent {
-              text-align: center;
-              color: white;
-              font-size: 36pt;
-            }
-
-            .darkenpic::before {
-              content: "";
-              position: absolute;
-              left: 0;
-              top: 0;
-              background-image: linear-gradient(
-                  to bottom,
-                  rgba(0, 0, 0, 0.9),
-                  rgba(0, 0, 0, 0.1) 20%
-                ),
-                linear-gradient(
-                  to top,
-                  rgba(0, 0, 0, 0.9),
-                  rgba(0, 0, 0, 0.1) 40%
-                ),
-                url("/about/bulletin-board.webp");
-              background-size: cover;
-              background-repeat: no-repeat;
-              background-position: top center;
-              z-index: -1;
-              filter: brightness(90%);
-              width: 100%;
-              height: 100vh;
-            }
-          `}</style>
           <Box pl={2} pr={2} pb={24} textAlign="center">
             <h1 className="piccontent">
               <b>
@@ -420,7 +477,7 @@ const Home: NextPage = () => {
         </Box>
       </main>
 
-      <footer className={styles.footer}>
+      <footer className="footer">
         <Box pb={2}>
           <Link href="/" underline="none" color="inherit">
             <Typography variant="h5">GroundWorm</Typography>
