@@ -216,12 +216,12 @@ const Home: NextPage = () => {
               <Box>
                 <Typography variant="h4">GroundWorm Blog</Typography>
               </Box>
-              <Box>
-                <Typography variant="h6">
+              <Box pt={2}>
+                <Typography>
                   {"Visit our blog for latest updates, and tips and tricks."}
                 </Typography>
               </Box>
-              <Box pt={8}>
+              <Box pt={4}>
                 <Link href="https://groundworm.com/blog" underline="none">
                   <Button
                     variant="outlined"
@@ -258,8 +258,8 @@ const Home: NextPage = () => {
               <Box>
                 <Typography variant="h4">Contact us</Typography>
               </Box>
-              <Box>
-                <Typography variant="h6">
+              <Box pt={2}>
+                <Typography>
                   {
                     "Email or get in touch with us to leave your comment, suggest a feature or report a bug."
                   }
@@ -306,7 +306,7 @@ const Home: NextPage = () => {
                 <Typography variant="h4">GET THE APP!</Typography>
               </Box>
               <Box pt={4} pb={4} textAlign="center">
-                <Typography variant="h6">
+                <Typography>
                   {
                     "Download or visit our app to keep you updated with what's happening around you."
                   }
