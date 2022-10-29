@@ -315,16 +315,14 @@ const Home: NextPage = () => {
                   maxWidth={1000}
                   textAlign="center"
                 >
-                  Keeps you updated with what's happening around you
+                  {"Keeps you updated with what's happening around you"}
                 </Typography>
               </Box>
               <Box display={"flex"} justifyContent={"center"} pt={2}>
                 <Typography maxWidth={600} textAlign="center">
-                  Refresh the GroundWorm bulletin board app whenever you are at
-                  a different location to see posts only from your current
-                  location. Any new restaurants nearby, any events in your
-                  neighborhood, any nice photos or videos of a tourist
-                  attraction, it's all at your fingertips.
+                  {
+                    "Refresh the GroundWorm bulletin board app whenever you are at a different location to see posts only from your current location. Any new restaurants nearby, any events in your neighborhood, any nice photos or videos of a tourist attraction, it's all at your fingertips."
+                  }
                 </Typography>
               </Box>
             </Grid>
