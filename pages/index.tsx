@@ -214,7 +214,7 @@ const Home: NextPage = () => {
               borderRight={"1px solid #FFFFFF"}
             >
               <Box>
-                <Typography variant="h4">GroundWorm Blog</Typography>
+                <Typography variant="h3">GroundWorm Blog</Typography>
               </Box>
               <Box pt={2}>
                 <Typography>
@@ -256,7 +256,7 @@ const Home: NextPage = () => {
               borderRight={"1px solid #FFFFFF"}
             >
               <Box>
-                <Typography variant="h4">Contact us</Typography>
+                <Typography variant="h3">Contact us</Typography>
               </Box>
               <Box pt={2}>
                 <Typography>
