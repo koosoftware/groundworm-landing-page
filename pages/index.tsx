@@ -359,7 +359,10 @@ const Home: NextPage = () => {
         >
           <Grid container columns={{ xs: 4, sm: 6, md: 12 }}>
             <Grid
-              p={3}
+              pl={3}
+              pr={3}
+              pt={6}
+              pb={6}
               item
               xs={4}
               sm={6}
@@ -403,7 +406,10 @@ const Home: NextPage = () => {
               </Box>
             </Grid>
             <Grid
-              p={3}
+              pl={3}
+              pr={3}
+              pt={6}
+              pb={6}
               item
               xs={4}
               sm={6}
