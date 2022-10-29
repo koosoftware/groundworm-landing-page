@@ -165,7 +165,8 @@ const Home: NextPage = () => {
             <Typography maxWidth={600} textAlign="center">
               Anyone can broadcast your information to your neighborhood,
               connect with your target audiences, increase visiblity on your
-              products, or promote your businesses to the people nearby.
+              products, or promote your businesses to the people nearby in
+              GroundWorm location based bulletin board.
             </Typography>
           </Box>
         </Box>
@@ -188,9 +189,9 @@ const Home: NextPage = () => {
           </Box>
           <Box display={"flex"} justifyContent={"center"} pt={2}>
             <Typography maxWidth={600} textAlign="center">
-              Post geo-targeted ads for free at GroundWorm Bulletin Board to
-              reach your potential customers nearby. At the same time increase
-              your brand awareness in your neighborhood.
+              Post geo-targeted ads for free at GroundWorm location based
+              bulletin board to reach your potential customers nearby. At the
+              same time increase your brand awareness in your neighborhood.
             </Typography>
           </Box>
         </Box>
