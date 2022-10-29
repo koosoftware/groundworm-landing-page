@@ -271,7 +271,10 @@ const Home: NextPage = () => {
         <Box component="main">
           <Grid container columns={{ xs: 4, sm: 6, md: 12 }}>
             <Grid
-              p={3}
+              pl={3}
+              pr={3}
+              pt={10}
+              pb={10}
               item
               xs={4}
               sm={6}
@@ -280,12 +283,7 @@ const Home: NextPage = () => {
               borderLeft={"1px solid #000000"}
             >
               <Box display={"flex"} justifyContent={"center"}>
-                <Typography
-                  variant="h3"
-                  fontSize={36}
-                  maxWidth={1000}
-                  textAlign="center"
-                >
+                <Typography variant="h2" maxWidth={1000} textAlign="center">
                   Share information with your neighborhood
                 </Typography>
               </Box>
@@ -300,7 +298,10 @@ const Home: NextPage = () => {
               </Box>
             </Grid>
             <Grid
-              p={3}
+              pl={3}
+              pr={3}
+              pt={10}
+              pb={10}
               item
               xs={4}
               sm={6}
@@ -309,12 +310,7 @@ const Home: NextPage = () => {
               borderLeft={"1px solid #000000"}
             >
               <Box display={"flex"} justifyContent={"center"}>
-                <Typography
-                  variant="h3"
-                  fontSize={36}
-                  maxWidth={1000}
-                  textAlign="center"
-                >
+                <Typography variant="h2" maxWidth={1000} textAlign="center">
                   {"Keeps you updated with what's happening around you"}
                 </Typography>
               </Box>
