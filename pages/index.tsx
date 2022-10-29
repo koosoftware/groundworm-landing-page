@@ -446,7 +446,7 @@ const Home: NextPage = () => {
             </Link>
           </Box>
         </Box>
-        <Box display="flex" pt={2} pb={4} color={"grey"}>
+        <Box display="flex" pt={2} pb={4}>
           <Box pl={2} pr={2}>
             <Link
               href="https://groundworm.com/terms-of-use.html"
