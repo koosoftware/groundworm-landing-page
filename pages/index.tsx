@@ -342,7 +342,7 @@ const Home: NextPage = () => {
           pl={3}
           pr={3}
           pt={6}
-          pb={6}
+          pb={3}
         >
           <Box display={"flex"} justifyContent={"center"}>
             <Typography variant="h2" maxWidth={1000} textAlign="center">
@@ -355,6 +355,14 @@ const Home: NextPage = () => {
               bulletin board to reach your potential customers nearby. At the
               same time increase your brand awareness in your neighborhood.
             </Typography>
+          </Box>
+          <Box textAlign={"center"}>
+            <Image
+              src="/about/geotargeted-ads.png"
+              alt="Post geotargeted ads at GroundWorm bulletin board"
+              width="897px"
+              height="588px"
+            />
           </Box>
         </Box>
 
