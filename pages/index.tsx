@@ -336,7 +336,7 @@ const Home: NextPage = () => {
         <Box
           component="main"
           sx={{
-            backgroundColor: "black",
+            backgroundColor: "#4FA244",
             color: "white",
           }}
           pl={3}
@@ -364,6 +364,67 @@ const Home: NextPage = () => {
               height="588px"
             />
           </Box>
+        </Box>
+
+        <Box
+          component="main"
+          sx={{
+            backgroundColor: "#4FA244",
+            color: "white",
+          }}
+        >
+          <Grid container columns={{ xs: 4, sm: 6, md: 12 }}>
+            <Grid
+              pl={3}
+              pr={3}
+              pt={6}
+              pb={6}
+              item
+              xs={4}
+              sm={6}
+              md={6}
+              borderTop={"1px solid #FFFFFF"}
+              borderRight={"1px solid #FFFFFF"}
+            >
+              <Box display={"flex"} justifyContent={"center"}>
+                <Typography variant="h2" maxWidth={1000} textAlign="center">
+                  Classified ads
+                </Typography>
+              </Box>
+              <Box display={"flex"} justifyContent={"center"} pt={2}>
+                <Typography maxWidth={600} textAlign="center">
+                  {
+                    "Create local ads related to jobs hiring, housing for sale, services, local community, and events for free. It empowers you to focus on the areas where you'll find the right customers, and exclude areas where you won't."
+                  }
+                </Typography>
+              </Box>
+            </Grid>
+            <Grid
+              pl={3}
+              pr={3}
+              pt={6}
+              pb={6}
+              item
+              xs={4}
+              sm={6}
+              md={6}
+              borderTop={"1px solid #FFFFFF"}
+              borderRight={"1px solid #FFFFFF"}
+            >
+              <Box display={"flex"} justifyContent={"center"}>
+                <Typography variant="h2" maxWidth={1000} textAlign="center">
+                  {"Sell or give away used items"}
+                </Typography>
+              </Box>
+              <Box display={"flex"} justifyContent={"center"} pt={2}>
+                <Typography maxWidth={600} textAlign="center">
+                  {
+                    "Have a voucher that is going to expire soon? Have some items that you are not going to use anymore? Just post it up to GroundWorm community forum app. There is higher chance to close the deal due to distance advantage."
+                  }
+                </Typography>
+              </Box>
+            </Grid>
+          </Grid>
         </Box>
 
         <Box
