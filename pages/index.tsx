@@ -112,19 +112,19 @@ const Home: NextPage = () => {
         }
       `}</style>
       <Head>
-        <title>What is GroundWorm? A Location Based Bulletin Board App</title>
+        <title>What is GroundWorm? A Location Based Community Forum App</title>
         <meta
           name="description"
-          content="A community social platform that keeps you updated with what's happening around you. Create geo targeted post to broadcast your info to your neighborhood."
+          content="Location based community forum platform that keeps you updated with what's happening around you. Create geo targeted post to broadcast your info to your neighborhood."
         />
 
         <meta
           property="og:title"
-          content="What is GroundWorm? A Location Based Bulletin Board App"
+          content="What is GroundWorm? A Location Based Community Forum App"
         />
         <meta
           property="og:description"
-          content="A community social platform that keeps you updated with what's happening around you. Create geo targeted post to broadcast your info to your neighborhood."
+          content="Location based community forum platform that keeps you updated with what's happening around you. Create geo targeted post to broadcast your info to your neighborhood."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -135,11 +135,11 @@ const Home: NextPage = () => {
         <meta property="fb:app_id" content="725813565065709" />
         <meta
           name="twitter:title"
-          content="What is GroundWorm? A Location Based Bulletin Board App"
+          content="What is GroundWorm? A Location Based Community Forum App"
         />
         <meta
           name="twitter:description"
-          content="A community social platform that keeps you updated with what's happening around you. Create geo targeted post to broadcast your info to your neighborhood."
+          content="Location based community forum platform that keeps you updated with what's happening around you. Create geo targeted post to broadcast your info to your neighborhood."
         />
         <meta
           name="twitter:image"
@@ -301,7 +301,7 @@ const Home: NextPage = () => {
                   photos or videos to your neighborhood, connect with your
                   target audiences, increase visiblity on your products, or
                   promote your businesses to the people nearby in GroundWorm
-                  location based bulletin board.
+                  location based community forum.
                 </Typography>
               </Box>
             </Grid>
@@ -325,7 +325,7 @@ const Home: NextPage = () => {
               <Box display={"flex"} justifyContent={"center"} pt={2}>
                 <Typography maxWidth={600} textAlign="center">
                   {
-                    "Refresh the GroundWorm bulletin board app whenever you are at a different location to see posts only from your current location. Any new restaurants nearby, any events in your neighborhood, any nice photos or videos of a tourist attraction, it's all at your fingertips."
+                    "Refresh the GroundWorm community forum app whenever you are at a different location to see posts only from your current location. Any new restaurants nearby, any events in your neighborhood, any nice photos or videos of a tourist attraction, it's all at your fingertips."
                   }
                 </Typography>
               </Box>
@@ -352,14 +352,14 @@ const Home: NextPage = () => {
           <Box display={"flex"} justifyContent={"center"} pt={2}>
             <Typography maxWidth={600} textAlign="center">
               Post geo-targeted ads for free at GroundWorm location based
-              bulletin board to reach your potential customers nearby. At the
+              community forum to reach your potential customers nearby. At the
               same time increase your brand awareness in your neighborhood.
             </Typography>
           </Box>
           <Box textAlign={"center"}>
             <Image
               src="/about/geotargeted-ads.png"
-              alt="Post geotargeted ads at GroundWorm bulletin board"
+              alt="Post geotargeted ads at GroundWorm community forum"
               width="897px"
               height="588px"
             />
