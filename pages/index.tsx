@@ -115,7 +115,7 @@ const Home: NextPage = () => {
         <title>What is GroundWorm? A Location Based Community Forum App</title>
         <meta
           name="description"
-          content="Location based community forum platform that keeps you updated with what's happening around you. Create geo targeted post to broadcast your info to your neighborhood."
+          content="Location based community forum that keeps you updated with what's happening around you. Create geo targeted post to broadcast your info to your neighborhood."
         />
 
         <meta
@@ -124,7 +124,7 @@ const Home: NextPage = () => {
         />
         <meta
           property="og:description"
-          content="Location based community forum platform that keeps you updated with what's happening around you. Create geo targeted post to broadcast your info to your neighborhood."
+          content="Location based community forum that keeps you updated with what's happening around you. Create geo targeted post to broadcast your info to your neighborhood."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -139,7 +139,7 @@ const Home: NextPage = () => {
         />
         <meta
           name="twitter:description"
-          content="Location based community forum platform that keeps you updated with what's happening around you. Create geo targeted post to broadcast your info to your neighborhood."
+          content="Location based community forum that keeps you updated with what's happening around you. Create geo targeted post to broadcast your info to your neighborhood."
         />
         <meta
           name="twitter:image"
