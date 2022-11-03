@@ -644,10 +644,7 @@ const Home: NextPage = () => {
             </Link>
           </Box>
           <Box p={1}>
-            <Link
-              href="https://www.youtube.com/channel/UC0nf6-eeutbSDG-5iN5PSng"
-              target="_blank"
-            >
+            <Link href="https://www.youtube.com/@GroundWormBB" target="_blank">
               <Image
                 src="/about/youtube_grey.png"
                 alt="Youtube Channel of GroundWorm"
@@ -670,10 +667,7 @@ const Home: NextPage = () => {
             </Link>
           </Box>
           <Box p={1}>
-            <Link
-              href="https://www.pinterest.com/groundwormapp"
-              target="_blank"
-            >
+            <Link href="https://www.pinterest.com/GroundWormBB" target="_blank">
               <Image
                 src="/about/pinterest_grey.png"
                 alt="Pinterest of GroundWorm"
