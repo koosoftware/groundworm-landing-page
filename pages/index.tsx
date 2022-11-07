@@ -299,7 +299,7 @@ const Home: NextPage = () => {
                 <Typography maxWidth={600} textAlign="center">
                   Anyone can broadcast your information in the form of text,
                   photos or videos to your neighborhood, connect with your
-                  target audiences, increase visiblity on your products, or
+                  target audiences, increase visibility on your products, or
                   promote your businesses to the people nearby in GroundWorm
                   location based community forum.
                 </Typography>
