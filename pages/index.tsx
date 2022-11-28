@@ -8,6 +8,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Link from "@mui/material/Link";
 import { Grid } from "@mui/material";
+import YouTube from 'react-youtube';
 
 const Home: NextPage = () => {
   return (
@@ -267,12 +268,37 @@ const Home: NextPage = () => {
             </Typography>
           </Box>
           <Box textAlign={"center"}>
-            <Image
-              src="/about/forum.png"
-              alt="GroundWorm Location Based Community Forum"
-              width="470px"
-              height="394px"
-            />
+            <Grid container columns={{ xs: 4, sm: 6, md: 12 }}>
+              <Grid
+                item
+                xs={4}
+                sm={6}
+                md={6}
+              >
+                <Image
+                  src="/about/forum.png"
+                  alt="GroundWorm Location Based Community Forum"
+                  width="470px"
+                  height="394px"
+                />
+              </Grid>
+              <Grid
+                pt={4}
+                pb={4}
+                item
+                xs={4}
+                sm={6}
+                md={6}
+              >
+                <YouTube videoId="OhrEofzheP0" opts={{
+                  height: '320',
+                  width: '100%',
+                  playerVars: {
+                    autoplay: 1,
+                  },
+                }} />
+              </Grid>
+            </Grid>
           </Box>
         </Box>
 
