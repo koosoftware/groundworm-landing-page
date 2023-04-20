@@ -475,16 +475,16 @@ const Home: NextPage = () => {
             >
               <Box>
                 <Typography variant="h3" fontSize={36}>
-                  GroundWorm Blog
+                  Create a Post Now
                 </Typography>
               </Box>
               <Box pt={2}>
                 <Typography>
-                  {"Visit our blog for latest updates, and tips and tricks."}
+                  {"Visit GroundWorm web app to create your post now to reach more people."}
                 </Typography>
               </Box>
               <Box pt={4}>
-                <Link href="https://groundworm.com/blog" underline="none">
+                <Link href="https://groundworm.com" underline="none">
                   <Button
                     variant="outlined"
                     disableElevation
@@ -503,7 +503,7 @@ const Home: NextPage = () => {
                       paddingRight: 2,
                     }}
                   >
-                    Read our blog
+                    Visit GroundWorm.com
                   </Button>
                 </Link>
               </Box>
