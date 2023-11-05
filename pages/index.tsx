@@ -233,6 +233,17 @@ const Home: NextPage = () => {
               />
             </Link>
             <Link
+              href="https://apps.apple.com/us/app/groundworm-bulletin-board/id6468959277"
+              target="_blank"
+            >
+              <Image
+                src="/about/apple-appstore-badge.png"
+                alt="Apple App Store Badge for GroundWorm"
+                width="200px"
+                height="77px"
+              />
+            </Link>
+            <Link
               href="https://appgallery.huawei.com/app/C105635521"
               target="_blank"
             >
@@ -587,6 +598,17 @@ const Home: NextPage = () => {
                   <Image
                     src="/about/google-play-badge.png"
                     alt="Google Play Badge for GroundWorm"
+                    width="200px"
+                    height="77px"
+                  />
+                </Link>
+                <Link
+                  href="https://apps.apple.com/us/app/groundworm-bulletin-board/id6468959277"
+                  target="_blank"
+                >
+                  <Image
+                    src="/about/apple-appstore-badge.png"
+                    alt="Apple App Store Badge for GroundWorm"
                     width="200px"
                     height="77px"
                   />
