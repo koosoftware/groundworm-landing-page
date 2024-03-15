@@ -102,7 +102,7 @@ const Home: NextPage = () => {
               rgba(0, 0, 0, 0.1) 20%
             ),
             linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1) 40%),
-            url("/about/bulletin-board.webp");
+            url("/about/background.png");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: top center;
@@ -208,7 +208,7 @@ const Home: NextPage = () => {
           <Box pl={2} pr={2} pb={24} textAlign="center">
             <h1 className="piccontent">
               <b>
-                <i>Location Based Bulletin Board</i>
+                <i>Location Based Community App</i>
               </b>
             </h1>
           </Box>
@@ -233,7 +233,7 @@ const Home: NextPage = () => {
               />
             </Link>
             <Link
-              href="https://apps.apple.com/us/app/groundworm-bulletin-board/id6468959277"
+              href="https://apps.apple.com/my/app/groundworm-local-community/id6468959277"
               target="_blank"
             >
               <Image
@@ -603,7 +603,7 @@ const Home: NextPage = () => {
                   />
                 </Link>
                 <Link
-                  href="https://apps.apple.com/us/app/groundworm-bulletin-board/id6468959277"
+                  href="https://apps.apple.com/my/app/groundworm-local-community/id6468959277"
                   target="_blank"
                 >
                   <Image
